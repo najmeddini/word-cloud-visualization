@@ -1,0 +1,28 @@
+{
+  "name": "Word Cloud Visualization",
+  "description": "A dynamic word cloud that scales word sizes based on a metric.",
+  "data": {
+    "tables": [
+      {
+        "id": "DEFAULT",
+        "name": "Default Table",
+        "columns": [
+          {
+            "id": "Query",
+            "dataType": "STRING",
+            "semantics": {
+              "conceptType": "DIMENSION"
+            }
+          },
+          {
+            "id": "Metric",
+            "dataType": "NUMBER",
+            "semantics": {
+              "conceptType": "METRIC"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
